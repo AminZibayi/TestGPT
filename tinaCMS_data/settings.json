@@ -1,0 +1,66 @@
+{
+  "siteMetadata": {
+    "title": "",
+    "description": "",
+    "author": ""
+  },
+  "plugins": [],
+  "pathPrefix": "",
+  "developMiddleware": "",
+  "polyfill": true,
+  "siteUrl": "",
+  "postCssPlugins": [],
+  "googleAnalytics": {
+    "trackingId": "",
+    "head": false,
+    "anonymize": true,
+    "respectDNT": true,
+    "exclude": [],
+    "pageTransitionDelay": 0,
+    "optimizeId": "",
+    "experimentId": "",
+    "variationId": "",
+    "defer": false,
+    "sampleRate": 5,
+    "siteSpeedSampleRate": 10,
+    "cookieDomain": ""
+  },
+  "manifest": {
+    "name": "",
+    "short_name": "",
+    "start_url": "",
+    "background_color": "",
+    "theme_color": "",
+    "display": "",
+    "icon": ""
+  },
+  "sitemap": {
+    "output": "/sitemap.xml",
+    "createLinkInHead": true,
+    "entryLimit": 5000,
+    "exclude": [],
+    "query": {
+      "site": {
+        "siteMetadata": {
+          "siteUrl": ""
+        }
+      },
+      "allSitePage": {
+        "edges": {
+          "node": {
+            "path": ""
+          }
+        }
+      }
+    },
+    "serialize": {
+      "@": {
+        "@": "",
+        "@": ""
+      },
+      "url": "",
+      "changefreq": "",
+      "priority": 0.7
+    }
+  }
+}

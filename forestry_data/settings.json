@@ -1,0 +1,30 @@
+{
+  "site_title": "My Forestry Site",
+  "site_description": "This is a sample Forestry CMS site",
+  "site_url": "https://www.forestrysite.com",
+  "site_author": "Forestry User",
+  "social_links": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/forestryuser"
+    },
+    {
+      "name": "Facebook",
+      "url": "https://facebook.com/forestryuser"
+    }
+  ],
+  "menu_items": [
+    {
+      "name": "Home",
+      "url": "/"
+    },
+    {
+      "name": "About",
+      "url": "/about"
+    },
+    {
+      "name": "Contact",
+      "url": "/contact"
+    }
+  ]
+}
