@@ -1,0 +1,10 @@
+Since the "./tinaCMS/content/pages" directory is meant to contain markdown files migrated from the Forestry CMS, the actual code generation would be done in the migration script. However, an example of a markdown file that might be generated in this directory could look like this:
+
+---
+title: 'Page Title'
+date: '2021-12-01'
+author: 'Author Name'
+tags: ['tag1', 'tag2']
+---
+
+This is the content of the page.

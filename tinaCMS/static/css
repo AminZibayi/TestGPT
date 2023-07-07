@@ -1,0 +1,30 @@
+/* This is a placeholder CSS file for TinaCMS. 
+   Actual CSS content will be migrated from ForestryCMS via the migration script. */
+
+body {
+    /* Styles will be added here */
+}
+
+header {
+    /* Styles will be added here */
+}
+
+footer {
+    /* Styles will be added here */
+}
+
+.post-title {
+    /* Styles will be added here */
+}
+
+.post-content {
+    /* Styles will be added here */
+}
+
+.page-title {
+    /* Styles will be added here */
+}
+
+.page-content {
+    /* Styles will be added here */
+}

@@ -1,0 +1,26 @@
+// Importing necessary modules
+const fs = require('fs');
+const path = require('path');
+
+// Path to the Forestry CMS static JS directory
+const forestryJSPath = path.join(__dirname, '../forestryCMS/static/js');
+
+// Function to copy JS files from Forestry CMS to Tina CMS
+function migrateJS() {
+  fs.readdir(forestryJSPath, (err, files) => {
+    if (err) throw err;
+
+    files.forEach(file => {
+      const oldPath = path.join(forestryJSPath, file);
+      const newPath = path.join(__dirname, file);
+
+      fs.copyFile(oldPath, newPath, (err) => {
+        if (err) throw err;
+        console.log(`File ${file} has been migrated successfully.`);
+      });
+    });
+  });
+}
+
+// Call the function to start the migration
+migrateJS();
