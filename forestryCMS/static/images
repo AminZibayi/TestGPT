@@ -1,0 +1,1 @@
+As "./forestryCMS/static/images" is a directory containing static image files, there's no actual code to generate for this directory. The migration process will involve copying these files from the Forestry CMS to the Tina CMS, which will be handled by the migration script "./migrationScript.py".

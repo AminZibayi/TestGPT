@@ -1,0 +1,1 @@
+Since the "./tinaCMS/content/posts" directory is meant to contain markdown files migrated from the Forestry CMS, there won't be any code generated for this directory. The actual code for migrating the posts will be in the migration script. This directory will simply hold the migrated markdown files.

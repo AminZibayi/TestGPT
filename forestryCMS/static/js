@@ -1,0 +1,23 @@
+// This is the main JavaScript file for Forestry CMS
+
+document.addEventListener('DOMContentLoaded', function() {
+    var postTitle = document.getElementById('post-title');
+    var postContent = document.getElementById('post-content');
+    var pageTitle = document.getElementById('page-title');
+    var pageContent = document.getElementById('page-content');
+
+    // Fetching the post and page data from the Forestry CMS
+    fetch('/forestryCMS/content/posts')
+        .then(response => response.json())
+        .then(data => {
+            postTitle.textContent = data.title;
+            postContent.textContent = data.content;
+        });
+
+    fetch('/forestryCMS/content/pages')
+        .then(response => response.json())
+        .then(data => {
+            pageTitle.textContent = data.title;
+            pageContent.textContent = data.content;
+        });
+});

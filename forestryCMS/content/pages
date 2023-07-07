@@ -1,0 +1,12 @@
+Since the file "./forestryCMS/content/pages" is a directory containing markdown files, we can't generate code for it. However, we can provide an example of how a markdown file in this directory might look like:
+
+---
+title: "Page Title"
+date: 2021-12-01
+author: "Author Name"
+tags: ["tag1", "tag2"]
+---
+
+# Page Title
+
+This is the content of the page.
